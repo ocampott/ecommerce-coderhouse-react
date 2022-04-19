@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { ItemListContainer } from './components/ItemListContainer';
+import { Navigation } from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Ecommerce coming</p>
-      </header>
+      <Navigation/>
+      <ItemListContainer/>
     </div>
   );
 }
